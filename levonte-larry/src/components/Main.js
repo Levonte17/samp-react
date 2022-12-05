@@ -1,8 +1,17 @@
+import Home from '../pages/Home';
+
+import { Routes, Route } from 'react-router-dom';
 
 
 function Main(props) {
     return(
-        <h1>Main Here</h1>
+        <main>
+
+<Routes>
+     <Route path="/" element={<Home  />}/>
+</Routes>
+
+     </main>
     )
 };
 

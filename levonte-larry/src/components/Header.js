@@ -1,7 +1,7 @@
 
 
 
-function Header(props) {
+function Header({ user }) {
     return(
         <h1>Header Here</h1>
     )
