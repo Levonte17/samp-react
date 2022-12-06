@@ -3,7 +3,7 @@
 
 function Cybers(props) {
     return(
-        <h1>Cybers Here</h1>
+        <h1>Cyber Security</h1>
     )
 };
 
