@@ -1,9 +1,13 @@
+import header from '../assets/header.jpg'
 
 
-
-function Header({ user }) {
+function Header(props) {
     return(
-        <h1>Header Here</h1>
+        <div>
+        <h1>
+            <img className='img1' src={header} alt='img' />
+        </h1>
+        </div>
     )
 };
 

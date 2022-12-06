@@ -8,46 +8,43 @@ import samp from '../assets/samp.jpg'
 
 import React from 'react';
 
-function Websites(props) {
+function Website(props) {
     
     return(
-      <div className=''>
         <div className="allcont">
     <h1>
-        PREVIOUS WEBSITES
+        WEBSITES
     </h1>
             
             <a href="/websites">
-                <img alt='img' src={dih} />
+                <img  className='img' alt='img' src={dih} />
             </a>
 
             <a href="/websites">
-                <img alt='img' src={samp} />
+                <img className='img' alt='img' src={samp} />
             </a>
 
             <a href="/websites">
-                <img alt='img' src={brush} />
+                <img className='img'  alt='img' src={brush} />
             </a>
 
             <a href="/websites">
-                <img alt='img' src={humble} />
+                <img  className='img' alt='img' src={humble} />
             </a>
 
             <a href="/websites">
-                <img alt='img' src={colty} />
+                <img  className='img' alt='img' src={colty} />
             </a>
 
             <a href="/websites">
-                <img alt='img' src={e} />
+                <img  className='img' alt='img' src={e} />
             </a>
 
         
         
         
     </div>
-</div>
-
     );
 }
 
-export default Websites;
+export default Website;

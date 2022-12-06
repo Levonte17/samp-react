@@ -3,8 +3,16 @@
 
 function Footer(props) {
     return(
-        <h1>Footer Here</h1>
-    )
+<div className="footer">
+
+<hr/>
+
+<p>
+    Copyright &copy; All Rights Reserved Le'Vonte Larry 2022 
+</p>
+
+</div> 
+   )
 };
 
 export default Footer;
