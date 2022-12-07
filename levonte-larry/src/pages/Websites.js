@@ -17,33 +17,29 @@ function Websites(props) {
         PREVIOUS WEBSITES
     </h1>
             
-            <a href="digital-investors-hub.netlify.app">
+            <a href="/digital-investors-hub.netlify.app">
                 <img alt='img' src={dih} />
             </a>
 
-            <a href="https://sampfitness.netlify.app">
+            <a href="/https://sampfitness.netlify.app">
                 <img alt='img' src={samp} />
             </a>
 
-            <a href="https://brushcutz.netlify.app">
+            <a href="/https://brushcutz.netlify.app">
                 <img alt='img' src={brush} />
-            </a>
-
-            <a href="/websites">
-                <img alt='img' src={humble} />
-            </a>
-
-            <a href="/websites">
-                <img alt='img' src={colty} />
             </a>
 
             <a href="https://ekustoms.adaptable.app">
                 <img alt='img' src={e} />
             </a>
 
-        
-        
-        
+            <a href="/">
+                <img alt='img' src={humble} />
+            </a>
+
+            <a href="/">
+                <img alt='img' src={colty} />
+            </a>
     </div>
 </div>
 
