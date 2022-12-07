@@ -16,19 +16,19 @@ function Website(props) {
         WEBSITES
     </h1>
             
-    <a href='digital-investors-hub.netlify.app/'>
-                <img  className='img' alt='img' src={dih} />
+    <a href="https://digital-investors-hub.netlify.app/">
+                <img className='img' alt='img' src={dih} />
             </a>
 
-            <a href='https://sampfitness.netlify.app/'>
+            <a href="https://sampfitness.netlify.app/">
                 <img className='img' alt='img' src={samp} />
             </a>
 
-            <a href='https://ekustoms.adaptable.app/'>
+            <a href="https://ekustoms.adaptable.app/">
                 <img  className='img' alt='img' src={e} />
             </a>
 
-            <a href='https://brushcutz.netlify.app/'>
+            <a href="https://brushcutz.netlify.app/">
                 <img className='img'  alt='img' src={brush} />
             </a>
 
