@@ -1,41 +1,28 @@
-import{Link} from 'react-router-dom';
 
 function Nav(props) {
     return ( 
 
 <div className='nav'>
+    <a className='a' href='tel:+1(912)446-5582'>
+        CALL
+    </a>
+
+    <a  className='a' href='mailto: myengine23@icloud.com '>
+        EMAIL
+    </a>
         
-<Link to='/'>
-        <div className='samp'>  
-            LE'VONTE LARRY 
-        </div>
-    </Link>
 
-<Link to='/websites'>
-    <div className='sam'>  
-        WEBSITES
-    </div>
-</Link>
+    <a  className='a' href='mailto: https://github.com/Levonte17?tab=repositories '>
+            GITHUB
+    </a>
 
-<Link to='/blogs' >
-        <div className='sam'>  
-            BLOGS
-        </div>
-    </Link>
+    <a  className='a' href=' https://www.linkedin.com/in/fullstack-levonte-larry/ '>
+        LINKEDIN
+    </a>
 
-
-    <Link to='/cybersecurity'>
-    <div className='sam'>  
-            SECURITY
-        </div>    
-    </Link>
-    
-    <Link to='/apps'>
-    <div className='sam'>  
-            MOBILE
-        </div>    
-    </Link>
-    <br/>
+    <a className='a' href=' https://www.instagram.com/the.digital.doctor/ '>
+        INSTAGRAM
+    </a>
 
 </div>
     );

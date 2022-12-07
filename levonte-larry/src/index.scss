@@ -9,6 +9,7 @@ body {
 
 ////////// NAV//////////////////////////////////////
 
+
 .img:hover
 {
     background-color: black;
@@ -22,20 +23,27 @@ button:hover
     background-color: grey;
     padding: 5% 5% 5%;
 }
-.samp:hover,
-.sam:hover{
+
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover,
+.a:hover{
     background-color: grey;
     padding: 1px 1px 1px;
+    
 }
 
+.a{
+  padding-left: 3%;
 
-
+}
 .links, p{
 font-size: x-large;
 color: black;
 text-decoration: none;
 padding-left: 1%;
-
 }
 .samp{
 font-size: xx-large;
@@ -49,7 +57,7 @@ text-decoration: none;
 color: black;
 display: flex;
 width: 95%;
-justify-content: space-between;
+justify-content: center;
 }
 .user{
 padding-top: 15%;
@@ -71,8 +79,8 @@ margin-left: 7% ;
 }
 
 .img{
-  width: 30%;
-  height: 30%;
+  width: 27%;
+  height: 27%;
   text-align: center;
   padding-left: 3%;
   padding-bottom: 3%;

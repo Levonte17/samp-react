@@ -1,4 +1,3 @@
-import Contact from "../components/Contact";
 import Header from "../components/Header";
 import Website from "../components/Website";
 import About from "../components/About";
@@ -10,7 +9,6 @@ function Home(props) {
             <Header />
             <About />
             <Website />
-            <Contact />
         </div>
     )
 };
